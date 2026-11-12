@@ -39,6 +39,7 @@ python3 tests/smoke.py
 - [组件、版本、许可证与费用](docs/components.md)
 - [安装过程中的问题及离线备用方案](docs/installation-notes.md)
 - [验收结果](reports/acceptance.md) · [阶段进度与问题清单](reports/status.md)
+- [基础版本运行测试](reports/baseline-test-2026-11-12.md) · [变更记录](CHANGELOG.md) · [版本发布流程](docs/releasing.md)
 
 `tests/smoke.py` 是针对本实例合成数据的只读检查，需要本地测试账号密码文件；它不创建账号，也不能代替人工浏览器验收。真实模型问答、语义检索、AI 权限隔离和 Office 保存回写均未验收。
 
