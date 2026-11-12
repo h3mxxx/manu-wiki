@@ -1,0 +1,9 @@
+.env
+.secrets/
+.runtime/
+backups/
+__pycache__/
+*.pyc
+.superpowers/
+
+compose.cloud.yaml

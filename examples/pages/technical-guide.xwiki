@@ -1,0 +1,18 @@
+= 技术文档：Wiki 试点架构 =
+
+**分类：** 技术文档 / 基础设施
+**负责人：** POC 编辑组
+**状态：** 已发布示例（合成数据）
+
+本试点采用 XWiki Standard、PostgreSQL 和内嵌 Solr。模型服务由现有平台提供，不在本仓库部署。
+
+== 运维规则 ==
+
+* 应用入口默认 127.0.0.1:8080；数据库不映射到宿主机端口。
+* 备份必须同时包含数据库与 XWiki 永久目录。
+* AI 集合仅纳入 Knowledge 空间，Drafts 单独管理。
+* 本文检索标记：MANU-WIKI-PUBLISHED-20261112。
+
+== 相关知识 ==
+
+[[操作手册>>Knowledge.Operations.WebHome]] · [[文档模板>>Templates.Technical.WebHome]]

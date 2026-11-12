@@ -1,0 +1,5 @@
+# Preserve attachment and screenshot bytes (PDF xref records contain intentional spaces).
+*.pdf binary
+*.docx binary
+*.mp4 binary
+*.png binary
