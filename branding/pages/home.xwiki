@@ -1,0 +1,19 @@
+查找知识，沉淀经验。LuxPedia 是团队共享技术文档、操作手册和实践经验的企业知识库。
+
+{{info}}当前为试点环境，页面和附件示例均为合成资料。{{/info}}
+
+== 知识入口 ==
+
+* [[浏览知识空间>>Knowledge.WebHome]]
+* [[技术文档>>Knowledge.Technical.WebHome]]
+* [[操作手册>>Knowledge.Operations.WebHome]]
+* [[文档与附件示例>>Knowledge.Attachments.WebHome]]
+
+== 使用 LuxPedia ==
+
+通过顶部搜索查找已发布的页面和附件内容。编辑者在草稿空间编写知识，审核者检查后发布，阅读者查看正式内容。
+
+* [[使用帮助>>LuxPedia.Help.WebHome]]：页面编辑、附件、搜索与审核说明。
+* [[关于 LuxPedia>>LuxPedia.About.WebHome]]：平台说明与开源组件信息。
+
+目前支持文档协作、附件预览及关键词搜索。AI 检索和 Office 在线编辑将在后续阶段接入。
