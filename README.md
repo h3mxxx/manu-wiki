@@ -1,8 +1,10 @@
-# manu-wiki：企业 Wiki 私有化 POC
+# LuxPedia：企业知识库 POC
 
 基于 [h3mxxx/manu-wiki](https://github.com/h3mxxx/manu-wiki) 空仓库建立。优先官方、开源、免费组件；不采购、不操作生产、不迁移 BWIpedia 全量数据。
 
 当前隔离环境已安装 **XWiki Standard 17.10.15 LTS + PostgreSQL 16.15 + Publication Workflow 2.4.9**，配置示例知识、账号权限及模板。AI 与 Office 后续方案已整理；根据用户最新选择，先完成核心 Wiki，不部署模型。
+
+用户界面采用 **LuxPedia** 品牌，仓库仍名为 `manu-wiki`。品牌配置使用官方主题和 Skin 机制，详见[应用及回退说明](docs/branding.md)。新部署不会自动应用实例中的品牌与首页。
 
 访问地址：`http://127.0.0.1:8080/`，**仅在当前云环境内可达**，不是用户电脑的 localhost，也没有公网/企业长期入口。当前共享 Desktop 浏览器工具不可用，已用环境内 Chromium 完成实际浏览器验收。管理员账号和密码保存在本地 `.secrets/admin_username`、`.secrets/admin_password`；不要提交到 Git。
 
@@ -40,7 +42,8 @@ python3 tests/smoke.py
 - [安装过程中的问题及离线备用方案](docs/installation-notes.md)
 - [验收结果](reports/acceptance.md) · [阶段进度与问题清单](reports/status.md)
 - [基础版本运行测试](reports/baseline-test-2026-11-12.md) · [变更记录](CHANGELOG.md) · [版本发布流程](docs/releasing.md)
+- [LuxPedia 品牌配置](docs/branding.md) · [品牌验收](reports/branding-acceptance.md)
 
 `tests/smoke.py` 是针对本实例合成数据的只读检查，需要本地测试账号密码文件；它不创建账号，也不能代替人工浏览器验收。真实模型问答、语义检索、AI 权限隔离和 Office 保存回写均未验收。
 
-![已运行的知识页面](reports/screenshots/knowledge.png)
+![LuxPedia 首页](reports/screenshots/luxpedia-home.png)

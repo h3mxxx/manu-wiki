@@ -1,0 +1,11 @@
+LuxPedia 是用于企业知识沉淀、查找与协作的私有化知识平台。本实例为核心 Wiki 试点，AI 检索与 Office 在线编辑尚未接入。
+
+== 开源组件声明 ==
+
+LuxPedia 的 Wiki 核心基于 XWiki Standard 17.10.15 LTS（LGPL 2.1 或后续版本），数据库为 PostgreSQL 16.15（PostgreSQL License）。Publication Workflow 2.4.9 提供草稿审核发布能力，其发布元数据与仓库许可证表述差异已记录在项目组件清单中。
+
+LuxPedia 是本实例的品牌名称，不表示上述开源组件由本项目原创。上游源文件、NOTICE、LICENSE、组件标识与管理界面保持原样；各组件版权归原权利人所有。品牌配置未修改许可或授权检查。
+
+准确版本、许可证、上游源码与费用说明见部署仓库中的 docs/components.md、docs/workflow.md；维护人员应随组件升级更新这些记录。
+
+[[返回 LuxPedia 首页>>Main.WebHome]] · [[使用帮助>>LuxPedia.Help.WebHome]]
